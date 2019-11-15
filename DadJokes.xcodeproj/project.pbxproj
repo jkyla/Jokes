@@ -14,6 +14,11 @@
 		E7E43489237DEDBE002F6B29 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E7E43488237DEDBE002F6B29 /* Assets.xcassets */; };
 		E7E4348C237DEDBE002F6B29 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E7E4348B237DEDBE002F6B29 /* Preview Assets.xcassets */; };
 		E7E4348F237DEDBE002F6B29 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7E4348D237DEDBE002F6B29 /* LaunchScreen.storyboard */; };
+		E7E43497237DF00A002F6B29 /* EmojiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7E43496237DF00A002F6B29 /* EmojiView.swift */; };
+		E7E4349A237DF515002F6B29 /* Joke+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7E43498237DF515002F6B29 /* Joke+CoreDataClass.swift */; };
+		E7E4349B237DF516002F6B29 /* Joke+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7E43499237DF515002F6B29 /* Joke+CoreDataProperties.swift */; };
+		E7E4349D237DF8B1002F6B29 /* AddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7E4349C237DF8B1002F6B29 /* AddView.swift */; };
+		E7E434A0237E1496002F6B29 /* JokeCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7E4349F237E1496002F6B29 /* JokeCard.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +31,12 @@
 		E7E4348B237DEDBE002F6B29 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		E7E4348E237DEDBE002F6B29 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E7E43490237DEDBE002F6B29 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E7E43496237DF00A002F6B29 /* EmojiView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiView.swift; sourceTree = "<group>"; };
+		E7E43498237DF515002F6B29 /* Joke+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Joke+CoreDataClass.swift"; sourceTree = "<group>"; };
+		E7E43499237DF515002F6B29 /* Joke+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Joke+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		E7E4349C237DF8B1002F6B29 /* AddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddView.swift; sourceTree = "<group>"; };
+		E7E4349E237E0CB8002F6B29 /* DadJokes.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DadJokes.entitlements; sourceTree = "<group>"; };
+		E7E4349F237E1496002F6B29 /* JokeCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JokeCard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +53,7 @@
 		E7E43473237DED8A002F6B29 = {
 			isa = PBXGroup;
 			children = (
+				E7E43496237DF00A002F6B29 /* EmojiView.swift */,
 				E7E4347E237DED8B002F6B29 /* DadJokes */,
 				E7E4347D237DED8B002F6B29 /* Products */,
 			);
@@ -58,9 +70,14 @@
 		E7E4347E237DED8B002F6B29 /* DadJokes */ = {
 			isa = PBXGroup;
 			children = (
+				E7E4349E237E0CB8002F6B29 /* DadJokes.entitlements */,
+				E7E43498237DF515002F6B29 /* Joke+CoreDataClass.swift */,
+				E7E43499237DF515002F6B29 /* Joke+CoreDataProperties.swift */,
 				E7E4347F237DED8B002F6B29 /* AppDelegate.swift */,
 				E7E43481237DED8B002F6B29 /* SceneDelegate.swift */,
+				E7E4349C237DF8B1002F6B29 /* AddView.swift */,
 				E7E43486237DED8B002F6B29 /* ContentView.swift */,
+				E7E4349F237E1496002F6B29 /* JokeCard.swift */,
 				E7E43488237DEDBE002F6B29 /* Assets.xcassets */,
 				E7E4348D237DEDBE002F6B29 /* LaunchScreen.storyboard */,
 				E7E43490237DEDBE002F6B29 /* Info.plist */,
@@ -149,10 +166,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E7E4349A237DF515002F6B29 /* Joke+CoreDataClass.swift in Sources */,
+				E7E434A0237E1496002F6B29 /* JokeCard.swift in Sources */,
 				E7E43485237DED8B002F6B29 /* DadJokes.xcdatamodeld in Sources */,
 				E7E43480237DED8B002F6B29 /* AppDelegate.swift in Sources */,
 				E7E43487237DED8B002F6B29 /* ContentView.swift in Sources */,
+				E7E4349D237DF8B1002F6B29 /* AddView.swift in Sources */,
 				E7E43482237DED8B002F6B29 /* SceneDelegate.swift in Sources */,
+				E7E43497237DF00A002F6B29 /* EmojiView.swift in Sources */,
+				E7E4349B237DF516002F6B29 /* Joke+CoreDataProperties.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,6 +310,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = DadJokes/DadJokes.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"DadJokes/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
@@ -298,6 +321,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.Kyla.DadJokes;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -307,6 +331,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = DadJokes/DadJokes.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"DadJokes/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
@@ -317,6 +342,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.Kyla.DadJokes;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
